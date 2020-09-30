@@ -13,11 +13,11 @@ const store = new Vuex.Store({
     doubleCounterA: doubleCounter,
     doubleCounterB: doubleCounter,
     totalCounter
+  },
     store.dispatch('totalCounter/setModules',
     ['counterA','counterB', 'doubleCounterA', 'doubleCounterB'])
 
     export default store
-  },
   state: {},
   mutations: {},
   actions: {},
