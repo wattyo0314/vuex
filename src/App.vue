@@ -11,12 +11,14 @@
 <script>
 import Counter from "./components/Counter";
 import DoubleCounter from "./components/DoubleCounter";
+import TotalCounter from "./components/TotalCounter";
 
 export default {
   name: "App",
   components: {
     Counter,
     DoubleCounter,
+    TotalCounter,
   },
 };
 </script>
